@@ -58,6 +58,7 @@ player = Player(playerName, room['outside'])
 while True:
     currentRoom = player.room
     movementChoice = ['n', 'e', 's', 'w']
+    print(f"Here's you're info: \n {player}")
     print('\n')
     userChoice = input(
         'What do you want to do? You can Move n, e, s, or you can enter q to quit: ')
