@@ -8,6 +8,5 @@ class Player():
         self.room = room
         self.health = health
 
-
     def __str__(self):
         return f'Player name: {self.name}, Health: {self.health}, {self.room}'
